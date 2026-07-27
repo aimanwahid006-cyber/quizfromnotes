@@ -6,7 +6,7 @@
 **The real problem:** as a Computer Science student, I constantly sit down the night before an exam with a pile of notes and no fast way to check if I've actually retained anything — making flashcards or quiz questions by hand takes almost as long as studying itself. This app removes that friction: paste your notes, pick a difficulty and question count, and get a graded quiz in seconds. It's built for students, but works for anyone revising any topic.
 
 ### b. Live URL
-🔗 **[https://YOUR-PROJECT-NAME.vercel.app]https://quizfromnotes.vercel.app/** ← replace after deploying (see "How to run" below)
+🔗 **https://quizfromnotes.vercel.app/** ← replace after deploying (see "How to run" below)
 
 ### c. Features
 - Paste any lecture notes, a summary, or just a topic name
