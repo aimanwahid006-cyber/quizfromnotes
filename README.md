@@ -6,7 +6,7 @@
 **The real problem:** as a Computer Science student, I constantly sit down the night before an exam with a pile of notes and no fast way to check if I've actually retained anything — making flashcards or quiz questions by hand takes almost as long as studying itself. This app removes that friction: paste your notes, pick a difficulty and question count, and get a graded quiz in seconds. It's built for students, but works for anyone revising any topic.
 
 ### b. Live URL
-🔗 **[https://YOUR-PROJECT-NAME.vercel.app](https://YOUR-PROJECT-NAME.vercel.app)** ← replace after deploying (see "How to run" below)
+🔗 **[https://YOUR-PROJECT-NAME.vercel.app]https://quizfromnotes.vercel.app/** ← replace after deploying (see "How to run" below)
 
 ### c. Features
 - Paste any lecture notes, a summary, or just a topic name
@@ -53,7 +53,12 @@ The `{NUM_QUESTIONS}` and `{DIFFICULTY}` placeholders are filled in server-side 
 
 | Home / input screen | Generated quiz | Graded result |
 |---|---|---|
-| ![home](screenshots/home.png) | ![quiz](screenshots/quiz.png) | ![result](screenshots/result.png) |
+| ![home] <img width="727" height="457" alt="image" src="https://github.com/user-attachments/assets/ec18dbd0-b120-46ed-8045-ce040352d5bf" />
+
+| ![quiz]<img width="700" height="440" alt="image" src="https://github.com/user-attachments/assets/494c5465-d49a-46a0-be79-2fd25074d9f9" />
+ |<img width="542" height="285" alt="image" src="https://github.com/user-attachments/assets/f21eab99-0a12-4cda-b8e1-dc2db00cb7a7" />
+  |
+<img width="395" height="306" alt="image" src="https://github.com/user-attachments/assets/795ca1be-b010-4e4c-a9eb-1a53f7ca9758" />
 
 ### g. How to run this project
 
