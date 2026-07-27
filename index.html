@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuizFromNotes — Turn your notes into a self-test</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>📚 QuizFromNotes</h1>
+      <p class="tagline">Paste your lecture notes. Get an instant self-test quiz. Find out what you actually know before the exam does.</p>
+    </header>
+
+    <section id="input-section" class="card">
+      <label for="notes">Your notes or topic</label>
+      <textarea id="notes" rows="10" placeholder="Paste your lecture notes, textbook summary, or just a topic name (e.g. 'Operating Systems: Process Scheduling')..."></textarea>
+
+      <div class="controls">
+        <div class="field">
+          <label for="numQuestions">Questions</label>
+          <select id="numQuestions">
+            <option value="3">3</option>
+            <option value="5" selected>5</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="generateBtn">Generate Quiz</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section id="quiz-section" class="card hidden">
+      <div id="quizContainer"></div>
+      <button id="submitBtn" class="hidden">Submit Answers</button>
+      <div id="resultBox" class="hidden"></div>
+      <button id="restartBtn" class="hidden">Try New Notes</button>
+    </section>
+
+    <section id="history-section" class="card hidden">
+      <h2>Past Attempts</h2>
+      <div id="historyList"></div>
+    </section>
+
+    <footer>
+      <p>Built by Aiman · AI-powered by OpenRouter</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
